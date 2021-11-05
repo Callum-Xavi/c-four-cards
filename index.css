@@ -1,0 +1,61 @@
+
+
+* {
+  /* make it that padding and border
+  are included in width and height */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+img {
+  height: 3rem;
+  width: 3rem;
+
+}
+
+
+.header-container {
+  margin: 40px auto;
+}
+
+.middle-container {
+  width: 100%;
+  height: 500px;
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 15rem;
+  background-color: grey;
+  margin: 0 auto;
+  /* flex-direction: column;
+  flex-wrap: wrap; */
+}
+
+.wide-screen-columns {
+  height: 400px;
+  width: 33%;
+
+}
+
+.column-L, .column-R {
+  margin-top: auto;
+}
+
+.img-flex-container {
+  margin-left: 12rem;
+}
+
+@media (max-width: 900px) {
+  .middle-container {
+    flex-direction: column;
+  }
+
+}
