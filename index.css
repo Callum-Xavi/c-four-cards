@@ -56,6 +56,13 @@ img {
 @media (max-width: 900px) {
   .middle-container {
     flex-direction: column;
+    height: auto;
+    padding-bottom: 5%;
+  }
+
+  .wide-screen-columns {
+    height: auto;
+    width: auto;
   }
 
 }
